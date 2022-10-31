@@ -6,7 +6,10 @@ Autoware expects to have multiple sensors attached to the vehicle as input to pe
 
 ## Camera calibration
 
-Navigation2 provides a [good tutorial for camera internal calibration](https://navigation.ros.org/tutorials/docs/camera_calibration.html).
+### Intrinsic Calibration
+
+- Navigation2 provides a [good tutorial for camera internal calibration](https://navigation.ros.org/tutorials/docs/camera_calibration.html).
+- [AutoCore](https://autocore.ai/) provides a [light-weight tool](https://github.com/autocore-ai/calibration_tools/tree/main/camera_intrinsic_calib).
 
 
 ### Camera calibration tool from TIER IV
@@ -17,6 +20,10 @@ TIER IVではCameraのキャリブレーションを行うため以下の二種�
   - camera-lidarキャリブレーションと同時にcameraの内パラ推定ができます
 
 ## Lidar-lidar calibration
+
+### Lidar-Lidar Calibration tool from Autocore
+
+[LL-Calib on Github](https://github.com/autocore-ai/calibration_tools/tree/main/lidar-lidar-calib), provided by [AutoCore](https://autocore.ai/), is a lightweight toolkit for online/offline 3D LiDAR to LiDAR calibration. It's based on local mapping and "GICP" method to derive the relation between main and sub lidar. Information on how to use the tool, troubleshooting tips and example rosbags can be found at the above link.
 
 ### Lidar-lidar calibration tool from TIER IV
 

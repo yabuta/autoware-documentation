@@ -4,7 +4,7 @@
 
 ![Vehicle Axes](images/vehicle_axes.svg){: style="width:500px"}
 
-The `base_link` frame is used very frequently throughout the stack, and is in the center of the rear axle.
+The `base_link` frame is used very frequently throughout the Autoware stack, and is a projection of the rear-axle center onto the ground surface.
 
 - Localization module outputs the `map` to `base_link` transformation.
 - Planning module plans the poses for where the `base_link` frame should be in the future.
@@ -79,5 +79,7 @@ If the vehicle is going forward, a positive wheel angle will result in the vehic
 Autoware assumes the rear wheels don't turn on `z` axis.
 
 ## Notice
+
+<!-- cspell: ignore xvlblo22 -->
 
 The vehicle used in the illustrations was created by xvlblo22 and is from <https://www.turbosquid.com/3d-models/modular-sedan-3d-model-1590886>.
