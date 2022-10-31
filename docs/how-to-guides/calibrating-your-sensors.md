@@ -11,13 +11,14 @@ Autoware expects to have multiple sensors attached to the vehicle as input to pe
 - Navigation2 provides a [good tutorial for camera internal calibration](https://navigation.ros.org/tutorials/docs/camera_calibration.html).
 - [AutoCore](https://autocore.ai/) provides a [light-weight tool](https://github.com/autocore-ai/calibration_tools/tree/main/camera_intrinsic_calib).
 
-
 ### Camera calibration tool from TIER IV
-TIER IVではCameraのキャリブレーションを行うため以下の二種類のキャリブレーションツールを提供しています
+
+TIER IV では Camera のキャリブレーションを行うため以下の二種類のキャリブレーションツールを提供しています
+
 - [Camera Calibration based on ROS](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#intrinsic-camera-calibration)
-  - パラメータ値を直接変更しrvizを見ながら調整をするツールです。
+  - パラメータ値を直接変更し rviz を見ながら調整をするツールです。
 - [Camera Calibration via camera-lidar calibraton](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#intrinsic-camera-calibration)
-  - camera-lidarキャリブレーションと同時にcameraの内パラ推定ができます
+  - camera-lidar キャリブレーションと同時に camera の内パラ推定ができます
 
 ## Lidar-lidar calibration
 
@@ -27,9 +28,10 @@ TIER IVではCameraのキャリブレーションを行うため以下の二種�
 
 ### Lidar-lidar calibration tool from TIER IV
 
-TIER IVではLiDAR - LiDARのキャリブレーションを行うため以下の二種類のキャリブレーションツールを提供しています
+TIER IV では LiDAR - LiDAR のキャリブレーションを行うため以下の二種類のキャリブレーションツールを提供しています
+
 - [Extrinsic Manual Calibration](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#generic-calibration)
-  - パラメータ値を直接変更しrvizを見ながら調整をするツールです。
+  - パラメータ値を直接変更し rviz を見ながら調整をするツールです。
 - [Extrinsic Map-Based Calibration](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#lidar-lidar-calibration)
   - 点群地図を使って自動的にキャリブレーションを行うツールです。
 
@@ -37,9 +39,10 @@ TIER IVではLiDAR - LiDARのキャリブレーションを行うため以下の
 
 ### Lidar-camera calibratio from TIER IV
 
-TIER IVではLiDAR - Cameraのキャリブレーションを行うため以下の三種類のキャリブレーションツールを提供しています。
+TIER IV では LiDAR - Camera のキャリブレーションを行うため以下の三種類のキャリブレーションツールを提供しています。
+
 - [Extrinsic Manual Calibration](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#generic-calibration)
-  - パラメータ値を直接変更しrvizを見ながら調整をするツールです。
+  - パラメータ値を直接変更し rviz を見ながら調整をするツールです。
 - [Extrinsic Interactive Calibration](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#camera-lidar-calibration)
   - 画像と点群の関係をクリックすることでキャリブレーションを行うツールです。
 - [Extrinsic tag-based calibration](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#camera-lidar-calibration)
@@ -56,13 +59,13 @@ IMU-based cost and LiDAR point-to-surfel (surfel = surface element) distance are
 
 ### Base-lidar calibration from TIER IV
 
-TIER IVではBase - LiDARのキャリブレーションを行うため以下の二種類のキャリブレーションツールを提供しています
-- [Extrinsic Manual Calibration](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#generic-calibration)
-  - パラメータ値を直接変更しrvizを見ながら調整をするツールです。
-- [Extrinsic ground-plane Calibration](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#base-lidar-calibration)
-  - roll, pitch, zを自動でキャリブレーションするツールです。
+TIER IV では Base - LiDAR のキャリブレーションを行うため以下の二種類のキャリブレーションツールを提供しています
 
+- [Extrinsic Manual Calibration](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#generic-calibration)
+  - パラメータ値を直接変更し rviz を見ながら調整をするツールです。
+- [Extrinsic ground-plane Calibration](https://github.com/tier4/CalibrationTools/tree/tier4/universe/sensor#base-lidar-calibration)
+  - roll, pitch, z を自動でキャリブレーションするツールです。
 
 ## Other Calibration Tools from TIER IV
 
-TIER IVではsensorの他にLocalization, controlのキャリブレーションツールを開発しOSSとして公開しています。他のキャリブレーションツールは[こちら](https://github.com/tier4/CalibrationTools)を参照してください
+TIER IV では sensor の他に Localization, control のキャリブレーションツールを開発し OSS として公開しています。他のキャリブレーションツールは[こちら](https://github.com/tier4/CalibrationTools)を参照してください
