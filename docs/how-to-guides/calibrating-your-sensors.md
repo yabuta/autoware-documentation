@@ -37,6 +37,20 @@ TIER IV では LiDAR - LiDAR のキャリブレーションを行うため以下
 
 ## Lidar-camera calibration
 
+Developed by MathWorks, The Lidar Camera Calibrator app enables you to interactively estimate the rigid transformation between a lidar sensor and a camera.
+
+<https://ww2.mathworks.cn/help/lidar/ug/get-started-lidar-camera-calibrator.html>
+
+SensorsCalibration toolbox v0.1: One more open source method for Lidar-camera calibration.
+This is a project for LiDAR to camera calibration,including automatic calibration and manual calibration
+
+<https://github.com/PJLab-ADG/SensorsCalibration/blob/master/lidar2camera/README.md>
+
+Developed by [AutoCore](https://autocore.ai/), an easy-to-use lightweight toolkit for Lidar-camera-calibration is proposed. Only in three steps, a fully automatic calibration will be done.
+
+<https://github.com/autocore-ai/calibration_tools/tree/main/lidar-cam-calib-related>
+
+
 ### Lidar-camera calibratio from TIER IV
 
 TIER IV では LiDAR - Camera のキャリブレーションを行うため以下の三種類のキャリブレーションツールを提供しています。
