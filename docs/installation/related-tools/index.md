@@ -14,4 +14,4 @@ rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
-CalibrationToolの詳しい情報や使い方は[こちら](https://github.com/tier4/CalibrationTools/blob/tier4/universe/README.md)を見てください
+Check [here](https://github.com/tier4/CalibrationTools/blob/tier4/universe/README.md) for a detailed explanation.
